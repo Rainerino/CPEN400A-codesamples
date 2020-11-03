@@ -23,7 +23,7 @@ function* fileReader(fileNames) {
    };
 }
 
-fileNames = ["sample.txt", "sample2.txt", "sample3.txt" ];
+fileNames = ["iterator.js", "simple-generator.js", "sample3.txt" ];
 var frGen = fileReader(fileNames);
 var fp;
 for (fp of frGen) {

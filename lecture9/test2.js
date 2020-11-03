@@ -21,5 +21,6 @@ action.then( (result) =>
 ).then( (result) => { console.log("Success: " + result); }, 
 	(error) => { console.log("Error: " + error.message); }
 );
-console.log("End of program");	 	
+console.log("End of program");	
+
 			
